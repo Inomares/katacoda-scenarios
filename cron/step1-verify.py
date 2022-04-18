@@ -13,9 +13,9 @@
 
 
 import re
-import sys
 
 with open("/var/spool/cron/crontabs/root") as f:
     contents = f.read()
+
 if not re.search(r"^\s*\*\s*\*\s*\*\s*\*\s*\*\s*wall .+", contents, re.MULTILINE):
-    print("Couldn't find a matching crontab command for the current user!")
+    raise Exception("Couldn't find a matching crontab command for the current user!")
