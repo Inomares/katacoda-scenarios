@@ -1,0 +1,1 @@
+python3 step1-verify.py

@@ -8,7 +8,7 @@
       {
         "title": "Your first cron job",
         "text": "step1.md",
-        "verify": "python3 step1-verify.py"
+        "verify": "step1-verify.sh"
       },
       {
         "title": "Step 2",
