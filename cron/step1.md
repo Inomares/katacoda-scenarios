@@ -13,4 +13,8 @@ _Inside the crontab_, add a new line and write the following:
 
 `* * * * * wall "Hello world!"`{{copy}}
 
-Save the modified file, and exit.
+Save the modified file, and exit the editor.
+
+Congratulations! You just created your first cron job! 
+
+At every full minute, you should now see a broadcasted message in your terminal. That's the task you just made, running like clockwork!
