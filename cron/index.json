@@ -34,7 +34,7 @@
     },
     "assets": {
         "client": [
-            {"file": "default_cron.txt", "target": "/var/spool/cron/crontabs/root"}
+            {"file": "root", "target": "/var/spool/cron/crontabs/"}
         ]
     }
   },
