@@ -1,4 +1,4 @@
-So what is cron?
+So how do I schedule something with cron?
 
 Let's start with having a look at the command you're most likely to use; `crontab`.
 
@@ -13,8 +13,8 @@ _Inside the crontab_, add a new line at the end, and write the following:
 
 `* * * * * wall "Hello world!"`{{execute}}
 
-Save the modified file, and exit the editor.
+Save the modified file, and exit the editor. You should immediately see a message saying that your crontab was updated.
 
 Congratulations! You just created your first cron job! 
 
-At every full minute, you should now see a broadcasted message in your terminal. That's the task you just made, running like clockwork!
+At every full minute, you should now see a broadcasted message in your terminal. That's the task you just made, running like clockwork! Note that it doesn't just run _once_, it keeps running every minute.
