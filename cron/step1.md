@@ -11,7 +11,7 @@ Executing this command and selecting an editor (only for the first time) opens t
 Let's create our first!
 _Inside the crontab_, add a new line at the end, and write the following:
 
-`* * * * * wall "Hello world!"`{{copy}}
+`* * * * * wall "Hello world!"`{{execute}}
 
 Save the modified file, and exit the editor.
 
