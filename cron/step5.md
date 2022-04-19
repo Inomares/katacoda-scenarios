@@ -8,7 +8,7 @@ Now let's pretend that you want to trigger a cronjob every minute from :00 to :4
 
 `0-49 * * * TUE,FRI wall "Hello world!"`{{execute}}
 
-Good job following along so far! Now you have all you need to finally create the cronjob described in the intro. To quickly recap: Every hour between 08-17 on mondays through friday, we want to run the task. To accomplish this, add the following to your crontab:
+Good job following along so far! Now you have all you need to finally create the cronjob described in the intro. To quickly recap: Every hour between 08-17 on mondays through friday, we want to run the task. To accomplish this, add the following to your `crontab -e`{{execute}}:
 
 `0 8-17 * * MON-FRI rm -rf /root/build_logs/*`{{execute}}
 

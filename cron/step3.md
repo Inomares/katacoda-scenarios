@@ -16,7 +16,7 @@ The asterisks represent "any" or "all". So for instance, we could create a cron 
 
 Of course, it's also possible to use asterisks on only some of the columns.
 
-Let's try it out, shall we? Try changing your cron job to something more specific, such as only triggering the `wall` broadcast at a specific minute rather than every minute:
+Let's try it out, shall we? Try changing your cron job inside of `crontab -e`{{execute}} to something more specific, such as only triggering the `wall` broadcast at a specific minute rather than every minute:
 
 `replaceme * * * * wall "Hello world!"`{{execute}}
 
