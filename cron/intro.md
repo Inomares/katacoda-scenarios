@@ -9,5 +9,8 @@ Employees at your office works from 08-17 mondays to fridays, and your build ser
 
 You've recently been hired and have been tasked with coming up with a quick solution for scheduling this task automatically. No problem, say you, that'll only take a minute!
 
+Automating tasks, anything from simple cleanup to complex build or deploy scripts, is a common task both in devops and in computer engineering in general. 
 
-In this tutorial, you'll luckily be given more than one minute, as we learn how to create a so called **cron job** to automatically schedule a task to run.
+In this tutorial, you'll luckily be given more than one minute, as we learn how to create a so called **cron job** to allow any task to run on a regularly defined schedule.
+
+# TODO: More elaboration needed on learning goals and motivation?

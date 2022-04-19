@@ -18,4 +18,8 @@ with open("/var/spool/cron/crontabs/root") as f:
     contents = f.read()
 
 if not re.search(r"^\s*\*\s*\*\s*\*\s*\*\s*\*\s*wall .+", contents, re.MULTILINE):
+    with open("/root/output.txt") as f:
+        f.write("Fail")
     raise Exception("Couldn't find a matching crontab command for the current user!")
+with open("/root/output.txt") as f:
+    f.write("Success")
