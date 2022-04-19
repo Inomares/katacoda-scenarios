@@ -1,7 +1,7 @@
 # Introduction to Cron jobs
 #### Created for DD2482
 
-Let's say you have a process which rebuilds your code anytime it is updated. It creates some build artifacts, perhaps caching. Every hour you want to clean these up.
+Let's say you have a process which rebuilds your code anytime it is updated. It creates some build artifacts such as logs. Every hour you want to clean these up.
 
 Employees at your office works from 08-17 mondays to fridays, and your build server is only active during these hours to conserve resources.
 
