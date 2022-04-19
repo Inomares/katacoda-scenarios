@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo python3 step1-verify.py
+sudo python3 /kata/hidden/step1_verify.py
