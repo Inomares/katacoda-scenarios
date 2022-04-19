@@ -35,7 +35,8 @@
     },
     "assets": {
         "client": [
-            {"file": "root", "target": "/var/spool/cron/crontabs/"}
+            {"file": "root", "target": "/var/spool/cron/crontabs/"},
+            {"file":  "hidden/*.*", "target": "/kata/"}
         ]
     }
   },
