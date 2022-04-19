@@ -1,8 +1,8 @@
 {
-  "title": "cron",
+  "title": "Cron jobs",
   "description": "Introduction to cron jobs for DD2482",
   "difficulty": "Beginner",
-  "time": "15 minutes",
+  "time": "5 minutes",
   "details": {
     "steps": [
       {

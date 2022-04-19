@@ -10,4 +10,4 @@ On a new line, add the following:
 
 `* * * * * rm -rf /root/build_logs/*`{{execute}}
 
-Save the editor and exit. At each full minute, easily tracked by the broadcast we just added through the other cronjob, the contents of the build_logs folder will be removed.
+Save the editor and exit. At each full minute, easily tracked by the broadcast we just added through the other cronjob, the contents of the build_logs folder will be removed. Refresh the file tree after the message is broadcasted to ensure that it worked.

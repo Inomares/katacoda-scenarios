@@ -1,6 +1,6 @@
 It is even possible to specify things like "every other minute"!
 
-Reopen your crontab, and change the seconds (the first column) to `*/2`:
+Reopen your crontab with `crontab -e`{{execute}}, and change the seconds (the first column) to `*/2`:
 
 `*/2 * * * * wall "Hello world!"`{{execute}} 
 
