@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo python3 /kata/create_logs.py
+sudo python3 /kata/hidden/create_logs.py
